@@ -6,6 +6,7 @@ const {fetchPosts} = require("./features/post/postSlice");
 //Initial state
 // console.log(`Initial State: ${JSON.stringify(store.getState())}`);
 
+
 // subscribe to state changes
 store.subscribe(() => {
     // console.log(store.getState());
